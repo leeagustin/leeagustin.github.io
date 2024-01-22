@@ -381,6 +381,10 @@ body {
     z-index: 1;
 }
 
+.service {
+    padding-bottom: 20px;
+}
+
 .service h4 {
     margin: 25px 0;
     font-size: 24px;
@@ -390,6 +394,11 @@ body {
 .service p {
     color: #000;
     margin-bottom: 0;
+}
+
+.service img {
+    height: 5vh;
+    width: 5wh;
 }
 
 /* Section: Portfolio */
