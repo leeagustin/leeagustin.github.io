@@ -398,7 +398,7 @@ body {
 
 .service img {
     height: 8vh;
-    width: 5vw;
+    width: 4vw;
 }
 
 /* Section: Portfolio */
@@ -522,6 +522,10 @@ body {
 
 .modal-body h4 {
     font-weight: 700;
+}
+
+.modal-title {
+    padding-bottom: 15px;
 }
 
 .modal-footer {
