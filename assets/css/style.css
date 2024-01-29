@@ -39,25 +39,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-twitter:before {
-    content: "\f099";
-} /* '' */
-.icon-facebook:before {
-    content: "\f09a";
-} /* '' */
-.icon-gplus:before {
-    content: "\f0d5";
-} /* '' */
-.icon-linkedin:before {
-    content: "\f0e1";
-} /* '' */
-.icon-email:before {
-    content: "@";
-} /* '' */
-.icon-up:before {
-    content: "\f176";
-} /* '' */
-
 /* CUSTOM RESETS
 ================================================== */
 a {
@@ -563,15 +544,6 @@ body {
     line-height: 0.8;
 }
 
-/* Section: Form*/
-.section-form {
-    padding-bottom: 120px;
-}
-
-.section-form .btn {
-    margin-top: 40px;
-}
-
 /* FOOTER
 ================================================== */
 .site-footer {
@@ -612,25 +584,22 @@ body {
     -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
-a.twitter-bg:hover {
-    color: #55acee;
+.icon-linkedin:before {
+    content: "\f0e1";
 }
-a.facebook-bg:hover {
-    color: #3b5998;
+.icon-email:before {
+    content: "@";
 }
-a.linkedin-bg:hover {
+.icon-up:before {
+    content: "\f176";
+}
+
+a.linkedin-bg {
     color: #007bb5;
 }
-a.gplus-bg:hover {
-    color: #dd4b39;
+a.email-bg {
+    color: #e52b50;
 }
 a.icon-up-bg:hover {
     color: #212121;
-}
-
-.copyright {
-    margin-bottom: 0;
-    line-height: 40px;
-    color: #fff;
-    text-align: center;
 }
