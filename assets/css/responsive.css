@@ -164,12 +164,12 @@
 	}
 
 	.site-logo img {
-		height: 22px;
+		height: 60px;
 	}
 
 	/* Navigation */
 	.navbar-toggle {
-	    margin: 0 15px 0 0;
+	    margin: 17px 15px 0 15px;
 	    padding: 5px 0;
 	   	border: 0;
 	}
@@ -445,12 +445,7 @@
 	/* FOOTER
 	================================================== */
 	.site-footer .row {
-		display:flex;
-		flex-direction: column-reverse;	
-	}
-
-	.site-footer .text-right{
-		text-align: center;
+		display: flex;
 	}
 
 	.site-footer .col-xs-6,
